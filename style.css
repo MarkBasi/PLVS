@@ -85,6 +85,15 @@ input[type="Phone"]{
     font-weight: bold;
 }
 
+.reg{
+position: sticky;
+}
+.user{
+    color: black;
+    background-color: rgba(128, 235, 101, 0.637);
+    border-radius: 10px;
+}
+
 .button:hover{
     opacity: 0.8;
 }
