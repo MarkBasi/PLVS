@@ -1,0 +1,96 @@
+.container{
+    position: relative;
+    height: 812px;
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.upBg{
+ border-top-left-radius: 30px;
+ border-top-right-radius: 30px;
+    height: 284px;
+    background-color: rgba(0, 0, 0, 0.884);
+}
+
+.numberLine{
+    position: absolute;
+    top: 184px;
+    right: 16px;
+    width: 334px;
+    height: 92px;
+    text-align: end;
+    font-size: 70px;
+    color: whitesmoke;
+    -webkit-touch-callout: text; /* iOS Safari */
+    -webkit-user-select: text;   /* Chrome/Safari/Opera */
+    -khtml-user-select: text;    /* Konqueror */
+    -moz-user-select: text;      /* Firefox */
+    -ms-user-select: text;       /* Internet Explorer/Edge */
+    user-select: text;
+}
+.mainBg{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: relative;
+    height: 528px;
+    background-color: whitesmoke;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+
+button{
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.315);
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
+    text-align: center;
+    line-height: 72px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 14px;
+}
+
+.fill{
+    box-shadow: unset;
+    width: 72px;
+    border: 0px;
+    height: 72px;
+    text-align: center;
+    line-height: 72px;
+    font-size: 0px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    margin-left: 14px;
+}
+
+.fill:hover{
+    box-shadow: none;
+}
+
+button#eq{
+    background-color: yellow;
+}
+
+button:hover{
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.315);
+}
+
+button#eq:active{
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.315);
+    background-color: yellowgreen;
+}
+button:active{
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.315);
+    background-color: rgb(165, 165, 165);
+}
