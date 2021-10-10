@@ -23,6 +23,8 @@
     position: absolute;
     top: 132px;
     right: 16px;
+    top: 112px;
+    overflow-y: auto;
     width: 334px;
     height: 62px;
     text-align: end;
